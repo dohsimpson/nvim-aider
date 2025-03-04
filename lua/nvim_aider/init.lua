@@ -109,7 +109,6 @@ function M.setup(opts)
     end
   end, {})
 
-  -- Setup nvim-tree integration
   require("nvim_aider.tree").setup(opts)
 end
 
